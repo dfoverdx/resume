@@ -21,15 +21,15 @@ const CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin,
 
 let config = {
     entry: {
-        dxdt: './src/client/index.js',
+        resume: './src/client/index.js',
         vendors: [],
     },
     
     output: {
         filename: isProd ? '[name].min.js' : '[name].js',
         chunkFilename: isProd ? '[name].min.js' : '[name].js',
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: isDev ? '' : 'dist',
+        path: path.resolve(__dirname, 'dist/static'),
+        publicPath: isDev ? '' : 'dist/static',
         sourceMapFilename: '[file].map'
     },
     
