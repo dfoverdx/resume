@@ -8,7 +8,7 @@
     "hot-dev": "webpack -d --display-modules --progress --color --hot",
     "build-dist": "webpack -p --display-modules --progress --color",
     "watch-dist": "webpack -p --display-modules --progress --color --watch",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
