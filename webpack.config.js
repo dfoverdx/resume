@@ -29,7 +29,7 @@ let config = {
         filename: isProd ? '[name].min.js' : '[name].js',
         chunkFilename: isProd ? '[name].min.js' : '[name].js',
         path: path.resolve(__dirname, 'dist/static'),
-        publicPath: isDev ? '' : 'dist/static',
+        publicPath: isDev ? '' : 'static',
         sourceMapFilename: '[file].map'
     },
     
