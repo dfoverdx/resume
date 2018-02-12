@@ -433,3 +433,7 @@
       #md .card-text > ul > li ul li, #md .card-text > ul > li ol li, #md .card-text ol > li ul li, #md .card-text ol > li ol li {
         padding-left: 0.5rem;
         text-indent: -0.5rem; }
+
+@media (max-width: 767.98px) {
+  body.noscroll {
+    overflow: hidden; } }
