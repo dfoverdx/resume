@@ -430,3 +430,6 @@
       width: 100%; }
       #md .card-text > ul > li:nth-child(2n), #md .card-text ol > li:nth-child(2n) {
         background-color: #e9ecef; }
+      #md .card-text > ul > li ul li, #md .card-text > ul > li ol li, #md .card-text ol > li ul li, #md .card-text ol > li ol li {
+        padding-left: 0.5rem;
+        text-indent: -0.5rem; }
