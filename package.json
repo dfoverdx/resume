@@ -1,0 +1,60 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Jordan Hitch's resume",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "webpack -d --display-modules --progress --color",
+    "hot-dev": "webpack -d --display-modules --progress --color --hot",
+    "build-dist": "webpack -p --display-modules --progress --color",
+    "watch-dist": "webpack -p --display-modules --progress --color --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dfoverdx/resume.git"
+  },
+  "keywords": [
+    "Jordan Hitch",
+    "resume"
+  ],
+  "author": "Jordan Hitch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfoverdx/resume/issues"
+  },
+  "homepage": "http://dfdx.us/resume",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "bootstrap": "^4.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "cssnano": "^3.10.0",
+    "ejs": "^2.5.7",
+    "ejs-compiled-loader": "^1.1.0",
+    "ejs-loader": "^0.3.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.6.2",
+    "lodash": "^4.17.5",
+    "node-sass": "^4.7.2",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "raw-text-loader": "^0.1.1",
+    "sass-loader": "^6.0.6",
+    "showdown": "^1.8.6",
+    "style-loader": "^0.20.1",
+    "text-loader": "0.0.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "unminified-webpack-plugin": "^1.4.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-module-hot-accept": "^1.0.5",
+    "xregexp": "^4.0.0",
+    "xregexp-lookbehind": "^1.0.0"
+  }
+}

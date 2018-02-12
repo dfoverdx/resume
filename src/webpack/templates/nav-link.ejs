@@ -1,0 +1,15 @@
+<% if (carouselId) { %>
+<a href="#<%- targetId %>" class="nav-link nav-link-wrapper pl-0" data-carousel-id="#<%- carouselId%>Carousel" data-slide-to="<%- slideTo %>">
+<% } else { %>
+<a href="#<%- targetId %>" class="nav-link nav-link-wrapper pl-0">
+<% } %>
+    <span class="nav-link mb-1 <%- linkClasses %>"><%= html %></span>
+</a>
+
+<% if (children) { %>
+<nav class="nav nav-pills flex-column justify-content-start ml-2">
+    <% children.forEach(c => { %>
+    <%= require('./nav-link.ejs')(c) %>
+    <% }); %>
+</nav>
+<% } %>
