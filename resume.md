@@ -1,11 +1,11 @@
 tl;dr
 =====
 
-|                |                                                                  |
-| --------------:|:---------------------------------------------------------------- |
-| **experience** | 8 years of experience as a software developer                    |
-| **education**  | Bachelors in Computer Science (2008), Masters in Teaching (2013) |
-| **strengths**  | intelligence, creativity, problem solving, deep thinking         |
+|                |                                                                   |
+| --------------:|:----------------------------------------------------------------- |
+| **experience** | 8 years of experience as a software developer                     |
+| **education**  | Bachelors in Computer Science (2008), Masters in Teaching (2013)  |
+| **strengths**  | intelligence, creativity, problem solving, deep/thorough thinking |
 
 Professional Experience
 =======================
