@@ -1,3 +1,10 @@
+.jumbotron .header-links a {
+  text-decoration: none; }
+  .jumbotron .header-links a:hover {
+    text-decoration: none; }
+  .jumbotron .header-links a span:hover {
+    text-decoration: underline; }
+
 @media (max-width: 575.98px) {
   #nav-wrapper {
     border-bottom: solid 1px #dee2e6;
