@@ -99,20 +99,24 @@
     }
   }
 
-  @include media-breakpoint-only(xs) {
-    .title {
-      p:only-child {
-        flex-direction: column;
-      }
+  $small-width-sizes: (xs, md, lg);
 
-      strong {
-        font-size: ($font-size-base + $font-size-lg) / 2;
-        align-self: flex-start;
-        display: block;
-      }
+  @each $width in $small-width-sizes {
+    @include media-breakpoint-only($width) {
+      .title {
+        p:only-child {
+          flex-direction: column;
+        }
 
-      em {
-        align-self: left;
+        strong {
+          font-size: ($font-size-base + $font-size-lg) / 2;
+          align-self: flex-start;
+          display: block;
+        }
+
+        em {
+          align-self: left;
+        }
       }
     }
   }
@@ -158,7 +162,7 @@
     flex-direction: column;
   }
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     .carousel-control-prev, .carousel-control-next {
       width: 10%;
     }
