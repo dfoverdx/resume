@@ -165,9 +165,14 @@ function setScrollOnToggle() {
 
             // hacky workaround for repositioning scroll when TOC link is clicked
             if (isiOS) {
-                setTimeout(() => $bodyHtml.animate({
-                    scrollTop: window.pageYOffset - document.documentElement.clientHeight + HeightOfCollapsedNav
-                }, CollapseTransitionTime));
+                setTimeout(() => {
+                    let $t = $(window.location.hash);
+                    if ($t.is('.carousel-item')) {
+                        $t = $t.closest('.carousel').parent().prevUntil('h1').addBack().prev('h1');
+                    }
+
+                    $t[0].scrollIntoView();
+                }, CollapseTransitionTime);
             }
         }
 
