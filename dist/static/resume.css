@@ -307,7 +307,7 @@
     margin-top: 0; }
     #md .job p:first-child {
       margin-bottom: 0; }
-    #md .job ul:only-child {
+    #md .job > ul:only-child {
       margin-top: -1rem; }
     #md .job ul {
       list-style-type: none;

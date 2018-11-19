@@ -130,6 +130,97 @@ Bremerton, Washington 98033
 *   3.7 GPA.
 </div>
 
+Portfolio / Recent Projects
+===========================
+
+Failstream.net
+--------------
+
+[Link](https://failstream.net/)
+
+Website for Failstream, the Twitch streamer  
+[https://twitch.tv/failstream](https://twitch.tv/failstream)
+
+#### Major features ####
+
+<div class="job">
+<div></div>
+*   Game submission for 12-hour stream scheduling [link](https://failstream.net/failstravaganza)
+*   Twitch chat bot for managing a viewer queue [link](https://failstream.net/mp)  
+    (Contact me with a Twitch username if you want to see the mod-only control panel)
+</div>
+
+#### Frameworks used ####
+
+<div class="job">
+<div></div>
+*   [React.js](https://reactjs.org/)
+*   [Bootstrap](http://getbootstrap.com/)
+*   [Next.js](https://nextjs.org/)
+*   [Express](https://expressjs.com/)
+*   [Twitch API](https://dev.twitch.tv/docs/)
+</div>
+
+Database Unmerge Tool
+---------------------
+
+Mission-critical tool used for unmerging wrongfully-merged person records in a 
+[Shelby Arena](https://www.shelbysystems.com/solutions/church-management/) database months after the merges occurred.
+
+#### Process ####
+
+<div class="job">
+<div></div>
+*   Reads a diff script (~1.3GB) generated with [Redgate Data SQL
+    Compare](https://www.red-gate.com/products/sql-development/sql-data-compare/index), a list of incorrectly merged
+    person ids, and the table/index data from the SQL Server database
+*   Parses the script into a list of statements (which often span multiple SQL statements), indexing with primary and
+    foreign key information
+*   Filters out all statements referencing the merged person ids
+*   Iteratively filters out all statements referencing the previously filtered set of statements
+</div>
+
+#### Required skills ####
+
+<div>
+*   Significant C# experience
+*   Script parsing
+    *   Reverse engineering undocumented SQL Server Parser classes
+    *   Custom tokenizing of SQL Server statements
+    *   Custom grammar for parsing those tokens (using [IronMeta](https://github.com/kulibali/ironmeta))
+*   Some WPF/XAML
+*   Significant parallelism
+*   Significant SQL Server experience
+</div>
+
+Pokemon-Soul.Link
+-----------------
+
+[Link](http://pokemon-soul.link)
+
+Tool for reading Pokémon ROM memory from an emulator in order to display Pokémon party images and data on stream via OBS
+Studio and XSplit.  
+
+It also manages ["Soullink
+runs"](https://www.deviantart.com/nuzlockefamily/journal/Soul-Link-Randomized-Nuzlocke-511651842) where multiple players
+each run a game at the same time, and when one player's Pokémon dies, their partner's linked Pokémon also dies.  Updates
+on both streams' displays are handled automatically and immediately via two Discord bots.
+
+#### Frameworks/technologies used ####
+<div class="job">
+<div></div>
+*   [Webpack](https://webpack.js.org/)
+*   [ejs](https://ejs.co/)
+*   [Node.js](https://nodejs.org/en/)
+*   [Bootstrap](http://getbootstrap.com/)
+*   [Discord.js](https://discord.js.org/#/)
+*   Lua scripting
+    *   Interfacing with both [DeSmuMe](https://desmume.org/) and
+        [VBA-RR](http://tasvideos.org/EmulatorResources/VBA.html) to read in Pokémon info and send it to the node server
+*   Server-Sent Events
+*   Websockets
+</div>
+
 References
 ==========
 

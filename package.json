@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-dev": "webpack -d --display-modules --progress --color",
-    "hot-dev": "webpack -d --display-modules --progress --color --hot",
+    "hot-dev": "webpack -d --display-modules --progress --color --hot --watch",
     "build-dist": "webpack -p --display-modules --progress --color",
     "watch-dist": "webpack -p --display-modules --progress --color --watch",
     "deploy": "gh-pages -d dist"
