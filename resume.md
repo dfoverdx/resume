@@ -159,6 +159,7 @@ Website for Failstream, the Twitch streamer
 *   [Next.js](https://nextjs.org/)
 *   [Express](https://expressjs.com/)
 *   [Twitch API](https://dev.twitch.tv/docs/)
+*   [Passport](http://www.passportjs.org/)
 </div>
 
 Database Unmerge Tool
