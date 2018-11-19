@@ -2,20 +2,19 @@
 <head>
     <title>
         Jordan Hitch - Resume -
-        2/12/2018
+        11/18/2018
     </title>
     <meta charset="UTF-8">
-    <meta name="description" content="Jordan Hitch's Online Resume as of 2/12/2018">
+    <meta name="description" content="Jordan Hitch's Online Resume as of 11/18/2018">
     <meta name="keywords" content="Jordan Hitch,Resume,dfdx.us,dxdt.life">
     <meta name="author" content="Jordan Hitch, jordan@dxdt.life">
-    <meta name="date" content="2/12/2018">
+    <meta name="date" content="11/18/2018">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <link href="static/resume.min.css" rel="stylesheet"></head>
 <body>
-    <div class="overlay"></div>
     <div class="jumbotron mb-0 mb-md-4">
     <div class="container">
         <div class="d-flex flex-column flex-md-row justify-content-md-between pr-md-3">
@@ -127,12 +126,11 @@
                 <ul>
 <li>Creative and methodical problem solving</li>
 <li>Intuitive comprehension of complex systems</li>
-<li>Considering every aspect of problems and the ramifications of potential solutions</li>
+<li>Considering every aspect of a problem and potential solution</li>
 <li>Articulation and listening<ul>
-<li>Skilled at explaining complex concepts</li>
-<li>Skilled at determining what parts of what I&apos;m saying are unclear to my audience and then clarifying in a 
+<li>Able to explain complex concepts</li>
+<li>Able to figure out what parts of what I&apos;m saying don&apos;t make sense to my audience and then explaining in a 
 manner that makes sense to them</li></ul></li>
-<li>Attention to detail</li>
 <li>Writing clearly</li>
 <li>Genuinely kind, helpful, and generous with my time</li>
 </ul>
@@ -219,6 +217,95 @@ manner that makes sense to them</li></ul></li>
             <span class="sr-only">Next</span>
         </a>
     </div>
+</div><h1 id="portfoliorecentprojects">Portfolio / Recent Projects</h1><div class="carousel-wrapper">
+    <div id="portfoliorecentprojectsCarousel" class="carousel slide bg-dark" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+            <div id="failstreamnet" class="card carousel-item active">
+    <div class="card-body">
+        <div class="card-title"><h2>Failstream.net</h2></div>
+        <div class="card-text-wrapper">
+            <div class="card-text">
+                <p><a href="https://failstream.net/">Link</a></p><p>Website for Failstream, the Twitch streamer<br>
+<a href="https://twitch.tv/failstream">https://twitch.tv/failstream</a></p><h4 id="majorfeatures">Major features</h4><div class="job"><div></div>
+<ul>
+<li>Game submission for 12-hour stream scheduling <a href="https://failstream.net/failstravaganza">link</a></li>
+<li>Twitch chat bot for managing a viewer queue <a href="https://failstream.net/mp">link</a><br>
+(Contact me with a Twitch username if you want to see the mod-only control panel)</li>
+</ul></div><h4 id="frameworksused">Frameworks used</h4><div class="job"><div></div>
+<ul>
+<li><a href="https://reactjs.org/">React.js</a></li>
+<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+<li><a href="https://nextjs.org/">Next.js</a></li>
+<li><a href="https://expressjs.com/">Express</a></li>
+<li><a href="https://dev.twitch.tv/docs/">Twitch API</a></li>
+</ul></div>
+            </div>
+        </div>
+    </div>
+</div><div id="databaseunmergetool" class="card carousel-item">
+    <div class="card-body">
+        <div class="card-title"><h2>Database Unmerge Tool</h2></div>
+        <div class="card-text-wrapper">
+            <div class="card-text">
+                <p>Mission-critical tool used for unmerging wrongfully-merged person records in a 
+<a href="https://www.shelbysystems.com/solutions/church-management/">Shelby Arena</a> database months after the merges occurred.</p><h4 id="process">Process</h4><div class="job"><div></div>
+<ul>
+<li>Reads a diff script (~1.3GB) generated with <a href="https://www.red-gate.com/products/sql-development/sql-data-compare/index">Redgate Data SQL
+Compare</a>, a list of incorrectly merged
+person ids, and the table/index data from the SQL Server database</li>
+<li>Parses the script into a list of statements (which often span multiple SQL statements), indexing with primary and
+foreign key information</li>
+<li>Filters out all statements referencing the merged person ids</li>
+<li>Iteratively filters out all statements referencing the previously filtered set of statements</li>
+</ul></div><h4 id="requiredskills">Required skills</h4><div><ul>
+<li>Significant C# experience</li>
+<li>Script parsing<ul>
+<li>Reverse engineering undocumented SQL Server Parser classes</li>
+<li>Custom tokenizing of SQL Server statements</li>
+<li>Custom grammar for parsing those tokens (using <a href="https://github.com/kulibali/ironmeta">IronMeta</a>)</li></ul></li>
+<li>Some WPF/XAML</li>
+<li>Significant parallelism</li>
+<li>Significant SQL Server experience</li>
+</ul></div>
+            </div>
+        </div>
+    </div>
+</div><div id="pokemonsoullink" class="card carousel-item">
+    <div class="card-body">
+        <div class="card-title"><h2>Pokemon-Soul.Link</h2></div>
+        <div class="card-text-wrapper">
+            <div class="card-text">
+                <p><a href="http://pokemon-soul.link">Link</a></p><p>Tool for reading Pok&#xE9;mon ROM memory from an emulator in order to display Pok&#xE9;mon party images and data on stream via OBS
+Studio and XSplit.  </p><p>It also manages <a href="https://www.deviantart.com/nuzlockefamily/journal/Soul-Link-Randomized-Nuzlocke-511651842">&quot;Soullink
+runs&quot;</a> where multiple players
+each run a game at the same time, and when one player&apos;s Pok&#xE9;mon dies, their partner&apos;s linked Pok&#xE9;mon also dies.  Updates
+on both streams&apos; displays are handled automatically and immediately via two Discord bots.</p><h4 id="frameworkstechnologiesused">Frameworks/technologies used</h4><div class="job"><div></div>
+<ul>
+<li><a href="https://webpack.js.org/">Webpack</a></li>
+<li><a href="https://ejs.co/">ejs</a></li>
+<li><a href="https://nodejs.org/en/">Node.js</a></li>
+<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+<li><a href="https://discord.js.org/#/">Discord.js</a></li>
+<li>Lua scripting<ul>
+<li>Interfacing with both <a href="https://desmume.org/">DeSmuMe</a> and
+<a href="http://tasvideos.org/EmulatorResources/VBA.html">VBA-RR</a> to read in Pok&#xE9;mon info and send it to the node server</li></ul></li>
+<li>Server-Sent Events</li>
+<li>Websockets</li>
+</ul></div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+        <a class="carousel-control-prev" href="#portfoliorecentprojectsCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#portfoliorecentprojectsCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 </div><h1 id="references">References</h1><p><span class="text-muted">Contact information removed for privacy </span></p><div class="carousel-wrapper">
     <div id="referencesCarousel" class="carousel slide bg-dark" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
@@ -229,7 +316,7 @@ manner that makes sense to them</li></ul></li>
             <div class="card-text">
                 <p>Bethany Community Church<br>
 Technical Director<br>
-<em>Current Manager</em></p>
+<em>Current Boss</em></p>
             </div>
         </div>
     </div>
@@ -286,7 +373,7 @@ Masters Degree Professor - Character Reference</p>
         </a>
     </div>
 </div><h1 id=""> </h1><div class="alert alert-info">The content of this page was generated entirely from a static markdown file:
-<a href="https://raw.githubusercontent.com/dfoverdx/resume/master/resume.md">resume.md</a>.</div>
+<a href="https://github.com/dfoverdx/resume/blob/master/resume.md">resume.md</a>.</div>
 </div>
             <div id="nav-wrapper" class="d-block pb-md-0">
                 <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light align-self-start justify-content-between align-content-start flex-md-wrap mb-0 pl-md-0">
@@ -383,6 +470,40 @@ Masters Degree Professor - Character Reference</p>
     
 </nav>
 
+<a href="#portfoliorecentprojects" class="nav-link nav-link-wrapper pl-0">
+
+    <span class="nav-link mb-1 ">Portfolio / Recent Projects</span>
+</a>
+
+
+<nav class="nav nav-pills flex-column justify-content-start ml-2">
+    
+    
+<a href="#failstreamnet" class="nav-link nav-link-wrapper pl-0" data-carousel-id="#portfoliorecentprojectsCarousel" data-slide-to="0">
+
+    <span class="nav-link mb-1 ">Failstream.net</span>
+</a>
+
+
+    
+    
+<a href="#databaseunmergetool" class="nav-link nav-link-wrapper pl-0" data-carousel-id="#portfoliorecentprojectsCarousel" data-slide-to="1">
+
+    <span class="nav-link mb-1 ">Database Unmerge Tool</span>
+</a>
+
+
+    
+    
+<a href="#pokemonsoullink" class="nav-link nav-link-wrapper pl-0" data-carousel-id="#portfoliorecentprojectsCarousel" data-slide-to="2">
+
+    <span class="nav-link mb-1 ">Pokemon-Soul.Link</span>
+</a>
+
+
+    
+</nav>
+
 <a href="#references" class="nav-link nav-link-wrapper pl-0">
 
     <span class="nav-link mb-1 ">References</span>
@@ -440,7 +561,7 @@ Masters Degree Professor - Character Reference</p>
             </div>
         </div>
     </div>
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
