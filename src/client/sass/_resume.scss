@@ -222,6 +222,7 @@
     flex-direction: column;
     display: flex;
     width: 100%;
+    padding-right: 4px;
 
     hr {
       width: 100%;
@@ -236,6 +237,11 @@
 
         &:nth-child(2n) {
           background-color: $gray-200;
+        }
+
+        li {
+          padding-left: .5rem;
+          text-indent: -.5rem;
         }
       }
     }

@@ -3,7 +3,7 @@ tl;dr
 
 |                |                                                                   |
 | --------------:|:----------------------------------------------------------------- |
-| **experience** | 8 years of experience as a software developer                     |
+| **experience** | 9 years of experience as a software developer                     |
 | **education**  | Bachelors in Computer Science (2008), Masters in Teaching (2013)  |
 | **strengths**  | intelligence, creativity, problem solving, deep/thorough thinking |
 
@@ -13,13 +13,31 @@ Professional Experience
 Software Development
 --------------------
 
-<div class="title">**Bethany Community Church** *2013-present*</div>
+<div class="title">**Warp World** *2019-present*</div>
+Online
+<div class="job" markdown>
+
+**Web Developer**
+*   Owner of MultiQueue's WarpBar, Twitch Chat Bot, and Configuration
+*   Warp World Re-write for Super Mario Maker 2 Support
+    -   Database schema
+    -   Backend API
+    -   WarpBar
+
+</div>
+</div>
+
+---
+
+<div class="title">**Bethany Community Church** *2013-2018*</div>
 Seattle, Washington 98103
-<div class="job">
+<div class="job" markdown>
+
 **Web Developer / Database Manager / SQL Ninja**
 *   Independent contractor.
 *   Maintenance and improvements of church website and members database.
 *   General problem solving for staff members.
+
 </div>
 </div>
 
@@ -27,7 +45,7 @@ Seattle, Washington 98103
 
 <div class="title">**Microsoft** *2008-2011*</div>
 Redmond, Washington 98052  
-<div class="job">
+<div class="job" markdown>
 **Software Development Engineer**
 *   SQL Azure front end (TDS proxy in C#) and web portal (ASP.Net v1, Silverlight/C# v2).
 *   Artificial intelligence-centric data recommendations project.
@@ -38,17 +56,17 @@ Teaching
 
 <div class="title">**McKnight Middle School** *2013*</div>
 Renton, Washington 98056  
-<div class="job">
+<div class="job" markdown>
 **Student Teacher**
 *   Team taught Math 8 (pre-algebra).
-*   In partial fullfillment of Masters in Teaching.
+*   In partial fulfillment of Masters in Teaching.
 </div>
 
 ---
 
 <div class="title">**Western Washington University** *2008*</div>
 Bellingham, Washington 98225  
-<div class="job">
+<div class="job" markdown>
 **Teaching Assistant / Lab Facilitator**  
 *   Taught and graded a lab that teaches students the fundamentals of circuit design and logic.
 </div>
@@ -62,7 +80,7 @@ Personal strengths
 
 *   Creative and methodical problem solving
 *   Intuitive comprehension of complex systems
-*   Considering every aspect of a problem and potential solution
+*   Considering every aspect of a problem and potential solutions
 *   Articulation and listening
     *   Able to explain complex concepts
     *   Able to figure out what parts of what I'm saying don't make sense to my audience and then explaining in a 
@@ -73,21 +91,24 @@ Personal strengths
 Programming language proficiencies
 ----------------------------------
 
-*   C++
-*   C#
-*   SQL (especially T-SQL)
-*   JavaScript
-    -   ECMAScript 7
+*   JavaScript / TypeScript 3.x
+    -   ECMAScript 6 - 8
     -   NodeJS
         *   Webpack
-    -   jQuery
     -   ReactJS / React Native
+    -   jQuery
+    -   EJS
+    -   Vue (currently learning)
 *   HTML 5
     -   Bootstrap 3 and 4
 *   CSS
     -   SASS
     -   LESS
+*   SQL (T-SQL, MySQL)
+*   C#
+*   C++
 *   Python
+*   PHP
 
 Education
 =========
@@ -97,18 +118,22 @@ University
 
 <div class="title">**Western Washington University** *class of 2008*</div>
 Bellingham, Washington 98225  
-<div class="job">
+<div class="job" markdown>
+
 *   Graduated with BS in computer science in June 2008.
 *   Minor in mathematics.
 *   3.57 GPA (does not include credits from AAS).
+
 </div>
 
 ---
 
 <div class="title">**Northwest University** *class of 2013*</div>
 Kirkland, Washington 98033  
-<div class="job">
+<div class="job" markdown>
+
 *   Graduated with a Masters in Teaching Secondary Education with an emphasis on mathematics.
+
 </div>
 
 Pre-University
@@ -116,16 +141,18 @@ Pre-University
 
 <div class="title">**South Kitsap High School** *class of 2005*</div>
 Port Orchard, Washington 98366  
-<div class="job">
+<div class="job" markdown>
+
 *   Diploma.
 *   3.8 GPA.
+
 </div>
 
 ---
 
 <div class="title"><span>**Olympic College** (via Running Start)</span> *class of 2005*</div>
 Bremerton, Washington 98033  
-<div class="job">
+<div class="job" markdown>
 *   AAS Degree.
 *   3.7 GPA.
 </div>
@@ -143,7 +170,7 @@ Website for Failstream, the Twitch streamer
 
 #### Major features ####
 
-<div class="job">
+<div class="job" markdown>
 <div></div>
 *   Game submission for 12-hour stream scheduling [link](https://failstream.net/failstravaganza)
 *   Twitch chat bot for managing a viewer queue [link](https://failstream.net/mp)  
@@ -152,7 +179,7 @@ Website for Failstream, the Twitch streamer
 
 #### Frameworks used ####
 
-<div class="job">
+<div class="job" markdown>
 <div></div>
 *   [React.js](https://reactjs.org/)
 *   [Bootstrap](http://getbootstrap.com/)
@@ -160,6 +187,7 @@ Website for Failstream, the Twitch streamer
 *   [Express](https://expressjs.com/)
 *   [Twitch API](https://dev.twitch.tv/docs/)
 *   [Passport](http://www.passportjs.org/)
+*   [Twitch-JS](https://github.com/twitch-devs/twitch-js/tree/master)
 </div>
 
 Database Unmerge Tool
@@ -170,8 +198,9 @@ Mission-critical tool used for unmerging wrongfully-merged person records in a
 
 #### Process ####
 
-<div class="job">
+<div class="job" markdown>
 <div></div>
+
 *   Reads a diff script (~1.3GB) generated with [Redgate Data SQL
     Compare](https://www.red-gate.com/products/sql-development/sql-data-compare/index), a list of incorrectly merged
     person ids, and the table/index data from the SQL Server database
@@ -179,11 +208,12 @@ Mission-critical tool used for unmerging wrongfully-merged person records in a
     foreign key information
 *   Filters out all statements referencing the merged person ids
 *   Iteratively filters out all statements referencing the previously filtered set of statements
+
 </div>
 
 #### Required skills ####
 
-<div>
+<div markdown>
 *   Significant C# experience
 *   Script parsing
     *   Reverse engineering undocumented SQL Server Parser classes
@@ -208,7 +238,7 @@ each run a game at the same time, and when one player's Pokémon dies, their par
 on both streams' displays are handled automatically and immediately via two Discord bots.
 
 #### Frameworks/technologies used ####
-<div class="job">
+<div class="job" markdown>
 <div></div>
 *   [Webpack](https://webpack.js.org/)
 *   [ejs](https://ejs.co/)
@@ -230,32 +260,39 @@ References
 Bart Brueck
 -----------
 
-Bethany Community Church  
+**Bethany Community Church**  
 Technical Director  
-*Current Boss*
+*Most recent boss*
+
+Jaku
+----
+
+**WarpWorld**  
+Business Owner  
+Twitch Streamer
 
 James Finnigan
 --------------
 
-Facebook  
+**Facebook**  
 Previously Principle Dev Lead at Microsoft
 
 Lee Marin
 ---------
 
-[411-Vision](http://411-vision.com/)  
+**[411-Vision](http://411-vision.com/)**  
 Business Owner
 
 Perry Fizzano
 -------------
 
-Western Washington University  
+**Western Washington University**  
 [Professor and Computer Science Department Chair](https://cse.wwu.edu/computer-science/fizzanp)
 
 Jeremy Delamarter
 -----------------
 
-Northwest University  
+**Northwest University**  
 [Assistant Professor of Education](https://www.northwestu.edu/education/faculty/jeremy-delamarter/)  
 Masters Degree Professor - Character Reference
 

@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "Jordan Hitch's resume",
+  "description": "Haley Hitch's resume",
   "main": "index.js",
   "scripts": {
     "build-dev": "webpack -d --display-modules --progress --color",
@@ -15,16 +15,18 @@
     "url": "git+ssh://git@github.com/dfoverdx/resume.git"
   },
   "keywords": [
+    "Haley Hitch",
     "Jordan Hitch",
     "resume"
   ],
-  "author": "Jordan Hitch",
+  "author": "Haley Hitch",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dfoverdx/resume/issues"
   },
   "homepage": "http://dfdx.us/resume",
   "devDependencies": {
+    "@types/showdown": "^1.9.3",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-minify-webpack-plugin": "^0.2.0",
