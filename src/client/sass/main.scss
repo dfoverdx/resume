@@ -4,3 +4,33 @@
 
 @import "./nav";
 @import "./resume";
+
+.scroll-bar {
+  > * {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &:hover::-webkit-scrollbar-track {
+    background: $light;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    transition: background-color .5s ease-in-out;
+  }
+
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background-color: darken($light, 20%);
+      border-radius: $border-radius * 2;
+
+      &:hover {
+        background-color: darken($light, 30%);
+      }
+    }
+  }
+}

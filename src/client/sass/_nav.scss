@@ -2,170 +2,152 @@
 @import "~bootstrap/scss/mixins/breakpoints";
 
 #nav-wrapper {
-    @include media-breakpoint-only(xs) {
-        border-bottom: solid 1px $border-color;
-        margin: 0 -15px;
-    }
+  @include media-breakpoint-only(xs) {
+    border-bottom: solid 1px $border-color;
+    margin: 0 -15px;
+  }
 
-    @include media-breakpoint-down(sm) {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-    }
+  @include media-breakpoint-down(sm) {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
 }
 
 #nav {
-    margin: 0 0 40px 20px;
-    max-width: 100%;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 10px;
+  margin: 0 0 40px 20px;
+  max-width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
 
-    @include media-breakpoint-up(sm) {
-        border-radius: $border-radius;
+  @include media-breakpoint-up(sm) {
+    border-radius: $border-radius;
+  }
+
+  @include media-breakpoint-only(md) {
+    font-size: .9rem;
+
+    &.navbar-brand {
+      font-size: 1rem;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin: 0 0 20px;
+    max-height: calc(100vh - 2px);
+    top: 0;
+
+    &.collapsing {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  ins, del {
+    text-decoration: none;
+  }
+
+  del {
+    display: none;
+  }
+
+  a.nav-link-wrapper {
+    padding-right: 0;
+    padding-left: 0;
+
+    &:not(.active) .nav-link {
+      background-color: unset;
+      color: $link-color;
+  
+      &:hover {
+        color: $link-hover-color;
+      }
     }
 
-    @include media-breakpoint-only(md) {
-        font-size: .9rem;
-
-        &.navbar-brand {
-            font-size: 1rem;
-        }
+    &.active .nav-link {
+      background-color: lighten($nav-pills-link-active-bg, 15%);
+      color: $nav-pills-link-active-color;
     }
+  }
 
-    @include media-breakpoint-down(sm) {
-        margin: 0 0 20px;
-        max-height: calc(100vh - 2px);
-        top: 0;
+  .is-deleted a.nav-link-wrapper .nav-link {
+    color: $danger;
+  }
 
-        &.collapsing {
-            margin-bottom: 0;
-            margin-top: 0;
-        }
-    }
-
-    ins, del {
-        text-decoration: none;
-    }
-
-    del {
-        display: none;
-    }
-
-    a.nav-link-wrapper:not(.active) .nav-link {
-        background-color: unset;
-        color: $link-color;
-
-        &:hover {
-            color: $link-hover-color;
-        }
-    }
-
-    a.nav-link-wrapper.active .nav-link {
-        background-color: lighten($nav-pills-link-active-bg, 15%);
-        color: $nav-pills-link-active-color;
-    }
-
-    .is-deleted a.nav-link-wrapper .nav-link {
-        color: $danger;
-    }
-
-    .is-deleted a.nav-link-wrapper.active .nav-link {
-        background-color: $danger;
-        color: color-yiq($danger);
-    }
+  .is-deleted a.nav-link-wrapper.active .nav-link {
+    background-color: $danger;
+    color: color-yiq($danger);
+  }
 }
 
 #nav-div {
-    overflow-y: auto;
-    position: relative;
+  overflow-y: auto;
+  position: relative;
 
-    @include media-breakpoint-only(sm) {
-        max-height: calc(100vh - 70px);
+  @include media-breakpoint-only(sm) {
+    max-height: calc(100vh - 70px);
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 10px;
+    max-height: calc(100vh - 61px);
+
+    .collapsing & {
+      margin-top: 0;
     }
+  }
 
-    @include media-breakpoint-down(sm) {
-        margin-top: 10px;
-        max-height: calc(100vh - 61px);
-
-        .collapsing & {
-            margin-top: 0;
-        }
-    }
-
-    @include media-breakpoint-up(md) {
-        align-content: flex-start;
-        align-items: flex-start;
-        justify-content: flex-start;
-        margin-right: -.9rem !important;
-        max-height: calc(100vh - 80px);
-        min-height: calc(100vh - 80px);
-    }
-
-    &::-webkit-scrollbar {
-        width: 8px;
-    }
-
-    &::-webkit-scrollbar-track {
-        background: $light;
-    }
-
-    &::-webkit-scrollbar-thumb {
-        transition: background-color .5s ease-in-out;
-    }
-
-    &:hover {
-        &::-webkit-scrollbar-thumb {
-            background-color: darken($light, 20%);
-            border-radius: $border-radius * 2;
-
-            &:hover {
-                background-color: darken($light, 30%);
-            }
-        }
-    }
+  @include media-breakpoint-up(md) {
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: -.9rem !important;
+    max-height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
+  }
 }
 
 #nav-items {
-    @include media-breakpoint-up(lg) {
-        min-width: 250px;
+  @include media-breakpoint-up(lg) {
+    min-width: 250px;
+  }
+
+  @include media-breakpoint-up(md) {
+    .nav.collapse.show {
+      display: flex;
+    }
+  }
+
+  a.nav-link.nav-link-wrapper {
+    padding-bottom: 0;
+    padding-top: 0;
+    width: 100%;
+
+    &.collapse:not(.show) {
+      display: none;
     }
 
-    @include media-breakpoint-up(md) {
-        .nav.collapse.show {
-            display: flex;
-        }
+    .nav-link {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      white-space: nowrap;
     }
 
-    a.nav-link.nav-link-wrapper {
-        padding-bottom: 0;
-        padding-top: 0;
-        width: 100%;
-
-        &.collapse:not(.show) {
-            display: none;
-        }
-
-        .nav-link {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            white-space: nowrap;
-        }
-
-        &.active {
-            background-color: unset !important;
-        }
+    &.active {
+      background-color: unset !important;
     }
+  }
 
-    nav nav nav a.nav-link.nav-link-wrapper .nav-link {
-        white-space: normal;
-    }
+  nav nav nav a.nav-link.nav-link-wrapper .nav-link {
+    white-space: normal;
+  }
 }
 
 @include media-breakpoint-down(sm) {
-    .nav-link-wrapper .nav-link {
-        padding-left: #{map-get($spacers, 2)};
-        padding-right: #{map-get($spacers, 2)};
-    }
+  .nav-link-wrapper .nav-link {
+    padding-left: #{map-get($spacers, 2)};
+    padding-right: #{map-get($spacers, 2)};
+  }
 }

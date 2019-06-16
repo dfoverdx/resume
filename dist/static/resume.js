@@ -659,6 +659,9 @@ function initCarousels() {
 }
 
 function initResume() {
+    // remove text between icons and text
+    $('.jumbotron .header-links').find('i, svg').parent().contents().filter((_, node) => node.nodeType === 3).remove();
+
     setCarouselHeights();
     $(window).resize(setCarouselHeights);
     initCarousels();

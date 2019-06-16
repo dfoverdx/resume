@@ -5,7 +5,7 @@ tl;dr
 | --------------:|:----------------------------------------------------------------- |
 | **experience** | 9 years of experience as a software developer                     |
 | **education**  | Bachelors in Computer Science (2008), Masters in Teaching (2013)  |
-| **strengths**  | intelligence, creativity, problem solving, deep/thorough thinking |
+| **strengths**  | intelligence, creativity, problem-solving, deep/thorough thinking |
 
 Professional Experience
 =======================
@@ -13,8 +13,8 @@ Professional Experience
 Software Development
 --------------------
 
-<div class="title">**Warp World** *2019-present*</div>
-Online
+<div class="title">**Warp World** *2019 - present*</div>
+Chicago, Illinois 60607
 <div class="job" markdown>
 
 **Web Developer**
@@ -29,7 +29,7 @@ Online
 
 ---
 
-<div class="title">**Bethany Community Church** *2013-2018*</div>
+<div class="title">**Bethany Community Church** *2013 - 2018*</div>
 Seattle, Washington 98103
 <div class="job" markdown>
 
@@ -43,7 +43,7 @@ Seattle, Washington 98103
 
 ---
 
-<div class="title">**Microsoft** *2008-2011*</div>
+<div class="title">**Microsoft** *2008 - 2011*</div>
 Redmond, Washington 98052  
 <div class="job" markdown>
 **Software Development Engineer**
@@ -78,7 +78,7 @@ Skills
 Personal strengths
 ------------------
 
-*   Creative and methodical problem solving
+*   Creative and methodical problem-solving
 *   Intuitive comprehension of complex systems
 *   Considering every aspect of a problem and potential solutions
 *   Articulation and listening
@@ -106,6 +106,9 @@ Programming language proficiencies
     -   LESS
 *   SQL (T-SQL, MySQL)
 *   C#
+    -   ASP.Net
+    -   Linq
+    -   Silverlight
 *   C++
 *   Python
 *   PHP
@@ -165,7 +168,7 @@ Failstream.net
 
 [Link](https://failstream.net/)
 
-Website for Failstream, the Twitch streamer  
+Website and chat bot for Failstream, the Twitch streamer  
 [https://twitch.tv/failstream](https://twitch.tv/failstream)
 
 #### Major features ####
@@ -264,30 +267,34 @@ Bart Brueck
 Technical Director  
 *Most recent boss*
 
-Jaku
-----
+Matthew "Jaku" Jakubowski
+-------------------------
 
-**WarpWorld**  
+**Warp World**  
 Business Owner  
-Twitch Streamer
+Twitch Streamer  
+((Knows me as dx/dt))
 
 James Finnigan
 --------------
 
 **Facebook**  
-Previously Principle Dev Lead at Microsoft
+Previously Principle Dev Lead at Microsoft  
+((May know me as *Jordan Hitch*))
 
 Lee Marin
 ---------
 
 **[411-Vision](http://411-vision.com/)**  
 Business Owner
+((Knows me as *Jordan Hitch*))
 
 Perry Fizzano
 -------------
 
 **Western Washington University**  
 [Professor and Computer Science Department Chair](https://cse.wwu.edu/computer-science/fizzanp)
+((Knows me as *Jordan Hitch*))
 
 Jeremy Delamarter
 -----------------
