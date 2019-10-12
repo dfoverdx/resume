@@ -1,11 +1,12 @@
 tl;dr
 =====
 
-|                |                                                                   |
-| --------------:|:----------------------------------------------------------------- |
-| **experience** | 9 years of experience as a software developer                     |
-| **education**  | Bachelors in Computer Science (2008), Masters in Teaching (2013)  |
-| **strengths**  | intelligence, creativity, problem-solving, deep/thorough thinking |
+|                       |                                                                   |
+| ---------------------:|:----------------------------------------------------------------- |
+| **experience**        | 9 years of experience as a software developer                     |
+| **education**         | Bachelors in Computer Science (2008), Masters in Teaching (2013)  |
+| **strengths**         | intelligence, creativity, problem-solving, deep/thorough thinking |
+| **primary languages** | JavaScript/TypeScript/React, C#, SQL, HTML, CSS/SASS              |
 
 Professional Experience
 =======================
