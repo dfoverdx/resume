@@ -47,11 +47,16 @@
       }
     }
 
-    td:first-child {
-      padding-right: $spacer;
+    td {
+      vertical-align: bottom;
+
+      &:first-child {
+        padding-right: $spacer;
+        font-size: .9em;
+      }
     }
   }
-  
+
   .title {
     display: flex;
 
@@ -87,7 +92,7 @@
     > ul:only-child {
       margin-top: -$spacer;
     }
-    
+
     ul {
       list-style-type: none;
       padding-left: 0;
