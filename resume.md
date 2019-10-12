@@ -14,6 +14,17 @@ Professional Experience
 Software Development
 --------------------
 
+<div class="title">**SendSwag.com** *2019 - present*</div>
+Centennial, Colorado 80122
+<div class="job" markdown>
+
+**Web Developer / AWS/S3 Guru**
+*   Working with UI specialist/owner of company to get it up and running on AWS
+
+</div>
+
+---
+
 <div class="title">**Warp World** *2019 - present*</div>
 Chicago, Illinois 60607
 <div class="job" markdown>
@@ -25,7 +36,6 @@ Chicago, Illinois 60607
     -   Backend API
     -   WarpBar
 
-</div>
 </div>
 
 ---
@@ -39,7 +49,6 @@ Seattle, Washington 98103
 *   Maintenance and improvements of church website and members database.
 *   General problem solving for staff members.
 
-</div>
 </div>
 
 ---
@@ -266,7 +275,13 @@ Bart Brueck
 
 **Bethany Community Church**  
 Technical Director  
-*Most recent boss*
+*Most recent long-term boss*
+
+Joe Milan
+---------
+
+**SendSwag.com**  
+Business Owner / UI Specialist
 
 Matthew "Jaku" Jakubowski
 -------------------------
